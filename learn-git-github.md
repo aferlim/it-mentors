@@ -64,6 +64,10 @@ git checkout -b feature
 
 git merge nome_branch
 
+git branch -d nome_branch - Deleta a branch
+
+git branch - lista as branchs
+
 ## Git checkout
 
 Troca de branch
@@ -72,7 +76,6 @@ Remove versão do workpspace
 git commit -m "meu primeiro commit" - Envia objetos da index para a HEAD
 
 git log
-
 
 ## Atualizando workspace
 
@@ -117,6 +120,11 @@ https://www.markdownguide.org/cheat-sheet/
 https://gist.github.com/zeroed/cb7ec60e01cf8fb3be297b944f9da03e
 
 https://rogerdudler.github.io/git-guide/index.pt_BR.html
+
+# Links Inúteis
+
+https://gist.github.com/parmentf/035de27d6ed1dce0b36a
+
 
 # Desafio
 
