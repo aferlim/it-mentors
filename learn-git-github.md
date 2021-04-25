@@ -34,7 +34,7 @@ Instalação
 
 Fluxo de trabalho - Workspace / Index (Staging) / Head
 
-Git Init
+Git Init - git init
 
 Git ADD
 
@@ -45,6 +45,8 @@ Git Commit
 # Passo a passo:
 
 mkdir aulagit1
+
+git init
 
 git status - Comando para descobrir o status atual do workspace
 
