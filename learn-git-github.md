@@ -41,7 +41,6 @@ Git ADD
 Git Commit
 
 
-
 # Passo a passo:
 
 mkdir aulagit1
@@ -58,6 +57,12 @@ Apontamos nosso repositorio local para este, atraves do comando:
 git remote add origin https://github.com/aferlim/aulagit1.git
 
 subir para repositorio remoto: git push
+
+git add . (*, nome_do_arquivo)
+
+git commit -m "seu comentário"
+
+git push -u master
 
 ## Ramificações
 
