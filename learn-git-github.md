@@ -32,8 +32,52 @@ Importância do GIT
 
 Instalação
 
-Git init
+Fluxo de trabalho - Workspace / Index (Staging) / Head
+
+Git Init
+
+Git ADD
+
+Git Commit
+
+
+
+# Passo a passo:
+
+mkdir aulagit1
+
+git status - Comando para descobrir o status atual do workspace
+
+git --help - saiba mais sobre o git
+
+Nós criamos um novo repositório git no gitHUB, vazio
+Apontamos nosso repositorio local para este, atraves do comando:
+
+git remote add origin https://github.com/aferlim/aulagit1.git
+
+subir para repositorio remoto: git push
+
+## Ramificações
+
+git branch release
+git checkout -b feature
+
+git merge nome_branch
+
+## Git checkout
+
+Troca de branch
+Remove versão do workpspace
+
+git commit -m "meu primeiro commit" - Envia objetos da index para a HEAD
+
+git log
+
+
+## Atualizando workspace
+
 Git Clone
+
 git remote add origin
 
 .gitignore
